@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="{{url_for('static', filename='encodedText.css')}}">
+    <h1 class="headerEncodedText">Your Encoded Message</h1>
+    <div class="EncodedTextcontainer">
+
+        <h2 class="Encoded" id="Copyclipboard">{{base64_string}}</h2>
+    
+        
+
+
+
+    </div>
+    <!-- Buttons -->
+    <form>
+
+        <!-- Copy Clipboard -->
+        <script>
+            function copytext(){
+                // console.log('Clicked')
+                var elm = document.getElementById("Copyclipboard");
+
+                if (window.getSelection) {
+                            // other browsers
+
+                            var selection = window.getSelection();
+                            var range = document.createRange();
+                            range.selectNodeContents(elm);
+                            selection.removeAllRanges();
+                            selection.addRange(range);
+                            document.execCommand("Copy");
+                        
+                        }
+            }
+        </script>
+
+
+
+            <input type="button" value="Copy" class="en"/ onclick="copytext()">
+        
+            <a href="decode">
+            <input type="button" value="Decode" class="re"/ ></a>
+
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="{{url_for('static', filename='encode.css')}}">
+
+    <h1 class="header">Encode your message</h1>
+    <div class="container">
+
+        <p class="para">Message (up to 1024 characters):
+        </p>
+
+        <form action="#" method="POST">
+
+            <textarea name="nm" cols="30" rows="10" 
+            id="inputText"   spellcheck="false" required></textarea><br>
+           <div class="bu">
+            <input type="submit" value="Submit" class="en"/>
+        
+            <input type="button" value="Reset" class="re" onclick="document.getElementById('inputText').value=''"/>
+        
+
+           </div>
+               
+
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

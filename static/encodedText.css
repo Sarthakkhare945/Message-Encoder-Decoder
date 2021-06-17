@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rebeccapurple; */
+}
+
+body{
+    background:url('img.jpg');
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+.headerEncodedText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+    color: blanchedalmond; 
+}
+
+
+h2{
+    color: sienna;
+    flex: 1;
+}
+.EncodedTextcontainer{
+  
+    height: 23vh;
+      width: 70vw;
+      /* background-color: springgreen; */
+    
+
+} 
+
+
+@media screen  and (max-width: 550px){
+    .EncodedTextcontainer{
+        display: flex;   
+     text-align: center;
+     place-items: center;
+        height: 23vh;
+      width: 90vw;
+     color: yellow; 
+    
+     overflow: auto;
+    margin-top: 10px;
+     margin-left: 20px;
+      border: 2px solid #ccc; 
+    
+    }
+    
+}
+
+@media screen and (min-width: 551px){
+    .EncodedTextcontainer{
+        display: flex; 
+        text-align: center;
+        place-items: center;
+        /* background-color: rebeccapurple; */
+        border: 2px solid #ccc; 
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    
+}
+/* Buttons   */
+
+
+.en{
+ 
+    width: 90%;
+    height: 60px;
+    margin-left: 20px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 6px;
+
+
+    background:rgba(255, 255, 255, .27);
+
+  color:white;
+  font-weight:700;
+  letter-spacing:1px;
+  border:none;
+  font-size:15px;
+  outline:none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  cursor: pointer;
+
+  transition:all .5s ease-in-out;
+
+  }
+
+.en:hover{
+
+  text-shadow:
+  0 0 10px rgba(255,255,255, 1),
+  0 0 50px rgba(255, 255, 255, .8),
+  0 0 75px rgba(255, 255, 255, .6),
+  0 0 76px rgba(255, 255, 255, .4),
+  0 0 77px rgba(255, 255, 255, .5),
+  0 0 78px rgba(255, 255, 255, .4),
+  0 0 79px rgba(255, 255, 255, .3),
+  0 0 80px rgba(255, 255, 255, .2),
+  0 0 85px rgba(255, 255, 255, .1);
+}
+
+
+
+
+
+
+
+.re{
+   
+    width: 90%;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 6px;
+
+
+
+    background:rgba(255, 255, 255, .27);
+    
+    color:white;
+    font-weight:700;
+    letter-spacing:1px;
+    border:none;
+    font-size:15px;
+    outline:none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    cursor: pointer;
+  
+    transition:all .5s ease-in-out;
+  
+   
+    
+    
+  }
+  
+
+  .re:hover{
+      /* background-color: rebeccapurple; */
+      text-shadow:
+  0 0 10px rgba(255,255,255, 1),
+  0 0 50px rgba(255, 255, 255, .8),
+  0 0 75px rgba(255, 255, 255, .6),
+  0 0 76px rgba(255, 255, 255, .4),
+  0 0 77px rgba(255, 255, 255, .5),
+  0 0 78px rgba(255, 255, 255, .4),
+  0 0 79px rgba(255, 255, 255, .3),
+  0 0 80px rgba(255, 255, 255, .2),
+  0 0 85px rgba(255, 255, 255, .1);
+}
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 450px){
+    .en{
+        margin-top: 20px;
+ 
+        width: 90%;
+        height: 60px;
+        margin-left: 20px;
+    
+      }
+    
+    
+      .re{
+       
+        width: 90%;
+      
+        height: 60px;
+        margin-left: 20px;
+        margin-top: 10px;
+       
+        
+        
+      }
+
+
+}
+
+
+@media screen and (min-width: 620px){
+
+
+    .en{
+ 
+        width: 40%;
+        height: 70px;
+        margin-left: 50px;
+    
+      }
+    
+    
+      .re{
+       
+        width: 40%;
+        height: 70px;
+        margin-left: 20px;
+        margin-top: 10px;
+       
+        
+        
+      }
+
+
+
+}
+
+
+
+@media screen and (min-width: 850px) {
+    /* .EncodedTextcontainer{
+        background-color: cyan;
+    } */
+
+    .en{
+        width: 30%;
+        margin-left: 170px;
+    
+    
+    }
+
+    .re{
+        width: 30%;
+       
+    
+    }
+}
+
+
+
+
+@media screen and (min-width: 1100px){
+    .container{
+        /* background-color: yellow; */
+    }
+    
+
+    .en{
+        width: 25%;
+        /* margin-left: 260px; */
+       margin-left: 300px;
+        
+      
+        height: 70px;
+        font-size: 1rem;
+    
+    
+    }
+
+    .re{
+        width:25%;
+        height: 70px;
+        font-size: 1rem;
+       
+    
+    }
+    
+}
+   
