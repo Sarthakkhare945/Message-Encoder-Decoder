@@ -1,5 +1,5 @@
 # Message Encoder and Decoder
-<p>It's a flask app which encodes and decode the user message.</p>
+<p>It's a flask app which encode and decode the user message.</p>
 
 Flask
 =====
